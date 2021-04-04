@@ -52,32 +52,205 @@ Also, each of software solution provide its mobile apps (Android and IOS) to acc
 
 ---
 # Installation: Desktop Client
+```{r installation, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+.panelset[
+.panel[.panel-name[Windows]
 
+1. Register Account on [Mendeley Website](https://www.mendeley.com/)
+
+2. Download Installer on the [website](https://www.mendeley.com/download-desktop-new/)
+
+3. Install the program by double clicking the installer
+
+4. Follow the usual installation promt
+]
+
+.panel[.panel-name[Linux]
+
+1. Open Terminal
+
+2. type "sudo apt-get install mendeleydesktop"
+
+3. Done
+]
+
+.panel[.panel-name[MacOs]
+
+1. I dont have MacOs
+
+2. So I think it is similar to Windows
+
+3. Please be so.....
+
+]
+]
 ---
-# Installation: Web Importer
+# Installation of Web Importer: Firefox
+Web importer is a piece of apps that run on the browser act as a bridge to pass metadata from website to your online repository.
+```{r web importer, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+.panelset[
+.panel[.panel-name[Firefox]
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rFmHr9YHmrw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    ]
+  ]
+.panel[.panel-name[Chrome]
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/NcKxDw_ik7U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    ]
+  ]  
+]
 
 ---
 # CSL Template
+Mendeley and other citation manager use CSL (citation style languange) as the template of citation and bibliographics format.
+I have prepared a custom CSL for Intisari Sains Medis, stored on Mendeley server
 
+"https://www.mendeley.com/reference-management/web-importer"
+
+Here is the guide of how to add this CSL to your Mendeley style collection!
+
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S00p5Socf_w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 ---
 # Adding Metadata
+Mendeley used the metadata (identity of files) to compose the bibliography.
+
+There are basically three ways of adding metadata. Take a look of these videos.
+```{r add-metadata, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+.panelset[
+.panel[.panel-name[Web-Importer]
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/T_JK6H4g2l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    ]
+  ]
+.panel[.panel-name[Manual]
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/STejkQE92E0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    ]
+  ]  
+]
 
 ---
 # Main Course: Inline Citation and Bibliography
+Finally,  adding citation to our working document. There are 2 steps:
+1. First click where would you like to put the inlice citation in your working document, then click add citation/reference in the mendeley's toolbar.
+2. Add bibliography in the reference section of your working document. 
+```{r add-citation, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+.panelset[
+.panel[.panel-name[Libre-Office]
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5hBLYa3LJF0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    ]
+  ]
+.panel[.panel-name[Microsoft-Office]
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/v_1-om0s9l4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    ]
+  ]  
+]
 
 ---
 # Correction and Automatic Update
+The most powerful advantage of citation manager is the automatic update of your inline citation and bibliography when the documents edited or the metadata changed.
+Add once, and then you can focus on the content.
 
+.center[
+<iframe width="560" height="315" src="https://www.youtube.com/embed/nQiNwSCR1zU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+]
 ---
 # Few Examples
+```{r examples, echo=FALSE}
+xaringanExtra::use_panelset()
+```
+.panelset[
+.panel[.panel-name[Inline Citation]
+.left[
+.center[** This is the inline citation**]
 
+First sentence cited from a single document.<sup>1</sup>
+Then the second sentence were based on two other documents.<sup>2,3</sup>
+We can combine these documents which support your hypothesis.<sup>1-3</sup>
+Of course, there are other documents that doesnt support your hypothesis.<sup>4-9</sup>
+Finally, the closing sentence were summaries of all the relevant fact except from documents 2.<sup>1,3-9</sup>
+    ]
+  ]
+
+.panel[.panel-name[Bibliography]
+
+.center[** This is the bibliograpy in Reference Section**]
+.left[
+Journal Article
+
+1. Tini K, Samatra IDPGP, Wiryadana KA, Supadmanaba IGP. Clinical Profile of Patients with Cerebrovascular Disease at Stroke Center , Sanglah Hospital Denpasar Bali. Bali Med J.2020;9(1):129–36. Available from: https://www.balimedicaljournal.org/index.php/bmj/article/view/1665
+
+Books
+
+2. Jameson J, Fauci AS, Kasper DL, Hauser SL, Longo D, Loscalzo J. Harrison’s Principles of Internal Medicine, 20th ed. McGraw-Hill. New York: Mcgraw-Hill Education; 2018.
+
+Books Section
+
+3. Crainiceanu C, Caffo B, Muschelli J. Hyphothesis Testing. In: Methods in Biostatistics with R. British Columbia: Leanpub; 2020. p. 487–506.
+    ]
+  ]
+  
+.panel[.panel-name[Bibliography-2]
+.center[** This is the bibliograpy in Reference Section**]
+.left[
+Computer Program
+
+4. R Core Team. R: A language and environment for statistical computing. [Internet]. Vienna: R Foundation for Statistical Computing; 2020. Available from: https://www.r-project.org/
+
+Web Page
+
+5. Grolemund G, Wickham H. R for Data Science [Internet]. Available from:
+https://r4ds.had.co.nz/
+
+Conference Proceeding
+
+6. Scepanovic S, Martin-Lopez E, Quercia D, Baykaner K. Extracting medical entities from
+social media. In: ACM CHIL 2020 - Proceedings of the 2020 ACM Conference on Health,
+Inference, and Learning. Association for Computing Machinery, Inc; 2020. p. 170–81.
+
+    ]
+  ] 
+.panel[.panel-name[Bibliography-3]
+.center[** This is the bibliograpy in Reference Section**]
+.left[ 
+
+Report
+
+7. WHO/Department of Control of neglected tropical diseases. Investing to overcome the
+global impact of neglected tropical diseases [Internet]. Geneva; 2015. Available from:
+https://www.who.int/neglected_diseases/9789241564861/en/
+
+Thesis
+
+8. Supadmanaba IGP. The effect of Anemia to Cardiovascular Risk, Lipid Profile, and
+Glucose Monitoring in Patient with type 2 Diabetes Mellitus in Sanglah General Hospital.
+Universitas Udayana; 2014.
+    ]
+  ]  
+]
 ---
 class: center, middle
 
 # Thanks!
+full document can be accesed on --- 
+
 **Any Suggestion or Improvement are Welcomed**
+
 Kadekaditwiryadana@hotmail.com or 
 fbihansip@gmail.com
 
-.footnote[Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).]
+.footnote[Slides created with R and R package [**xaringan**](https://github.com/yihui/xaringan) in Rstudio.]
 
