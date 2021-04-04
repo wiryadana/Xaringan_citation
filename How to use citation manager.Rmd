@@ -43,14 +43,41 @@ There are plenty of software we could use. Here are some of them:
 There are basically three set of main apps
 
 1. Desktop Client (offline apps)
-2. Online repository (like the *google drive* of citation metadata)
-3. Browser add-ons (the bridge between offline-online apps, and act as web importer)
 
-Also, each of software solution provide its mobile apps (Android and IOS)
+2. Online repository (like the *google drive* of citation metadata)
+
+3. Browser add-on (the bridge between offline-online apps, and act as web importer)
+
+Also, each of software solution provide its mobile apps (Android and IOS) to access the online repository.
+
+---
+# Installation: Desktop Client
+
+---
+# Installation: Web Importer
+
+---
+# CSL Template
+
+---
+# Adding Metadata
+
+---
+# Main Course: Inline Citation and Bibliography
+
+---
+# Correction and Automatic Update
+
+---
+# Few Examples
+
 ---
 class: center, middle
 
 # Thanks!
+**Any Suggestion or Improvement are Welcomed**
+Kadekaditwiryadana@hotmail.com or 
+fbihansip@gmail.com
 
-Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).
+.footnote[Slides created via the R package [**xaringan**](https://github.com/yihui/xaringan).]
 
