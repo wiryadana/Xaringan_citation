@@ -1,22 +1,53 @@
 ---
-title: "Presentation Ninja"
-subtitle: "⚔<br/>with xaringan"
-author: "Yihui Xie"
-institute: "RStudio, PBC"
-date: "2016/12/12 (updated: `r Sys.Date()`)"
+title: "How to Use Citation Manager"
+subtitle: "Featuring Mendeley & Zotero"
+author: "Kadek Adit Wiryadana"
+institute: "Intisari Sains Medis"
+date: "2021/04/04 (updated: `r Sys.Date()`)"
 output:
   xaringan::moon_reader:
     lib_dir: libs
     nature:
+      titleSlideClass: [center, middle]
       highlightStyle: github
       highlightLines: true
       countIncrementalSlides: false
 ---
+# Citation Manager?
 
+Reference is an **integral** part of any Scientific Paper.
+However, creating one, *a good and a right reference*, is tiring and laborious.
 
+**Here comes the CITATION MANAGER**
+* Ease the burden to create a consistent reference
+* Automatic update on the inline citation
+* Save metadata online and offline
+* Importing metadata online, one click away
 
 ---
+# Available Solution
 
+There are plenty of software we could use. Here are some of them:
+
+* **Endnote** -> Paid and Proprietary Software (by Clarivate Analytics)
+
+* **Mendeley** -> Free but Proprietary Software (by Elsevier)
+
+* **Zotero** -> Free and Open-source Software (by Digital Scholarship Foundation)
+
+.footnote[[*] We will talk about Mendeley and Zotero]
+
+---
+# Set of Software Environment
+
+There are basically three set of main apps
+
+1. Desktop Client (offline apps)
+2. Online repository (like the *google drive* of citation metadata)
+3. Browser add-ons (the bridge between offline-online apps, and act as web importer)
+
+Also, each of software solution provide its mobile apps (Android and IOS)
+---
 class: center, middle
 
 # Thanks!
