@@ -191,7 +191,7 @@ Finally, the closing sentence were summaries of all the relevant fact except fro
 .left[
 Journal Article
 
-1. Tini K, Samatra IDPGP, Wiryadana KA, Supadmanaba IGP. Clinical Profile of Patients with Cerebrovascular Disease at Stroke Center , Sanglah Hospital Denpasar Bali. Bali Med J.2020;9(1):129–36. Available from: https://www.balimedicaljournal.org/index.php/bmj/article/view/1665
+1. Tini K, Samatra IDPGP, Wiryadana KA, Supadmanaba IGP. Clinical Profile of Patients with Cerebrovascular Disease at Stroke Center, Sanglah Hospital Denpasar Bali. *Bali Med J*.2020;9(1):129–36. Available from: https://www.balimedicaljournal.org/index.php/bmj/article/view/1665
 
 Books
 
